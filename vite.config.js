@@ -12,4 +12,9 @@ export default defineConfig({
       exclude: [],
     }),
   ],
+  resolve: {
+    alias: {
+      src: '/src',
+    },
+  },
 });
